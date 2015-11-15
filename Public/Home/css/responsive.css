@@ -1,0 +1,272 @@
+/*IE HACK*/
+.header .menu ul li:hover a b{
+    display: none\9;
+}
+
+/* Reset the container */
+.container {
+    max-width: none !important;
+    width: 1170px;
+}
+
+.doyoo_pan_icon{
+    display: none!important;
+}
+
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {*/
+/*@media only screen and (min-width : 750px) and (max-width : 1170px) {*/
+/*@media screen and (max-width: 768px) {*/
+@media screen and (max-width: 992px) {
+    #notice{
+        background-color: #CD5032;
+        /*border: 2px dashed #CD5032;*/
+        color: #fff;
+        /*display: block;*/
+        font-size: 20px;
+        height: 100%;
+        line-height: 100px;
+        overflow: hidden;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+        z-index: 9999;
+    }
+}
+/*@media screen and (max-width: 1200px) {
+    .header .menu ul .social,
+    #side,
+    #index .major .col-1-5.item-9,
+    #index .major .col-1-5.item-10,
+    #evaluation .ev-teacher-list li:last-child,
+    .side-bar-list .latest-ev-list span,
+    #evaluation #list ul li.data-5 b,
+    #college #list ul li.data-5 b,
+    #major #index .recommended .col-sm-4 .item .info p,
+    #major #index .recommended .col-sm-4 .item hr,
+    #major #index .major-news-list .col-sm-4 span,
+    .header .top .consult b
+
+    {
+        display: none;
+    }
+    .header .menu .container > ul > li > a{
+        width: 102px;
+        font-size: 16px;
+    }
+    .header .top .logo{
+        margin-top: 0;
+    }
+    #index .teacher .mentor-list li{
+        margin: 0 37px 20px 0;
+    }
+    #major #index .recommended .col-sm-4 .item .info{
+        background: none;
+    }
+    .header .menu ul li a {
+        padding: 17px 16px;
+    }
+    .header .top .logo{
+        overflow: hidden; clear: both; display: block; margin-top: 0px;
+    }
+    .header .top .logo img{
+        width: 150px;
+    }
+    .header .top .logo img:first-child{
+        width: 46px;
+    }
+    .carousel-indicators li{
+        margin: 1px 15px;
+    }
+    .carousel-indicators .active{
+        margin: 0 15px;
+    }
+    #index #carousel-index .carousel-inner {
+        height: 466px;
+    }
+    .footer .bottom .right .wechat img{
+        width: 115px;
+        height: 115px;
+    }
+    .footer .bottom .right .wechat .col-sm-5 p{
+        font-size: 12px;
+    }
+    #index .banner .feed {
+        height: 126px;
+    }
+    #feed {
+        left: 24%;
+    }
+    .header .menu ul li:nth-last-child(2){
+        background: none;
+    }
+    .header .top .consult{
+        border: none;
+    }
+    .header .top .consult .tel {
+        font-size: 22px;
+    }
+    .header .top .consult .btn{
+         padding: 6px 15px;
+    }
+    .side-bar-nav h4 {
+        font-size: 19px;
+    }
+    #college .college_top > .container .college-logo > div,
+    #evaluation .college_top > .container .college-logo > div
+    {
+         height: 110px;
+         width: 110px;
+         font-size: 17px;
+    }
+    #college .college_top > .container .college-logo > div:last-child,
+    #evaluation .college_top > .container .college-logo > div:last-child
+    {
+        margin-left: -27px;
+        padding-top: 25px;
+    }
+    #college .college_top .bubble li p:first-child,
+    #evaluation .college_top .bubble li p:first-child
+    {
+        height: 110px;
+        padding-top: 35px;
+        font-size: 24px;
+    }
+    #college .college_top .bubble li.icon-bubble-5 p:first-child,
+    #evaluation .college_top .bubble li.icon-bubble-5 p:first-child
+    {
+        padding-left: 13px;
+        padding-top: 20px;
+    }
+    .cat_list li a {
+        padding: 10px 15px;
+    }
+    #student #contents .info .bubble_top div {
+        margin-right: 40px;
+    }
+    #student #contents .info .bubble_top div img {
+        height: 110px;
+        width: 110px;
+    }
+    #student #contents .bubble li p:first-child {
+        font-size: 17px;
+        height: 110px;
+        padding-top: 38px;
+    }
+    #student #contents .bubble li.icon-bubble-9 p:first-child {
+        padding-top: 32px;
+    }
+    #college .filter li {
+        width: 17%;
+    }
+    #college .filter .country li:last-child {
+        width: 21%;
+    }
+    #major #index .recommended .col-sm-4 .item .icon {
+        left: 70px;
+    }
+    #major #index .major-country-rank .major-rank-world li div {
+        font-size: 14px;
+    }
+    #major .major-logo .img > div {
+        float: left;
+        height: 130px;
+        width: 130px;
+    }
+    #major .major-logo .img > div:last-child {
+        padding-top: 38px;
+    }
+    #major .major-logo .line {
+        right: -50px;
+        top: 60px;
+    }
+    #major .major-logo {
+        margin-bottom: 98px;
+    }
+    #vip .intro i {
+        height: 280px;
+    }
+    #vip .intro-2 .way p {
+        font-size: 13px;
+    }
+    #vip .plan > div i {
+        height: 322px;
+    }
+    #vip .benefit b {
+        height: 177px;
+    }
+    #vip .promotion .promo b {
+        height: 230px;
+    }
+    #vip .promotion .info p {
+        line-height: 18px;
+    }
+    #vip .footer-banner .footer-banner-1 b {
+        height: 88px;
+    }
+    #vip .footer-banner .footer-banner-2 b {
+        height: 88px;
+    }
+    .footer .bottom .right h3 {
+        font-size: 14px;
+    }
+    #highschool .intro i {
+        height: 274px;
+    }
+    #highschool .course .course_inner .course_plan dl dd {
+        font-size: 12px;
+    }
+    .header .top {
+        padding: 12px 0 17px;
+    }
+    #index .assess .hover {
+        height: 222px;
+    }
+    .btn.btn_3 {
+        padding: 3px 20px;
+    }
+}*/
+
+/*iPadÊú°å*/
+@media screen and (max-device-width: 768px) {
+    /*#notice{
+        display: none;
+    }*/
+}
+/*iPadÊú°å*/
+@media screen and (max-device-width: 768px) and (orientation: portrait) {
+
+}
+/*iPadºá°å*/
+@media screen and (max-device-width: 1024px) and (orientation: landscape) {
+
+}
+
+/*iPhone4*/
+@media only screen and (max-device-width: 480px),
+only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* iPhone 4 Êú°å */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5) and (orientation:portrait),
+only screen and (min-device-pixel-ratio : 1.5)  and (orientation:portrait){
+    form {
+        margin:0;
+    }
+    .controls {
+        width: 68%;
+    }
+}
+
+/* iPhone 4 ºá°å */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5) and (orientation:landscape),
+only screen and (min-device-pixel-ratio : 1.5)  and (orientation:landscape){
+    form {
+        margin:0 10%;
+    }
+    .controls {
+        width: 68%;
+    }
+}
